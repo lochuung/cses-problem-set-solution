@@ -1,3 +1,5 @@
+//Author: Nguyen Huu Loc
+//Problem: https://cses.fi/problemset/task/1071
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,11 +10,11 @@ void solve() {
 	
 	long long result;
 	if (j <= i) {
-		if (i % 2 == 0) result = i * i - (j - 1); 
+		if (i % 2 == 0) result = i * i - j + 1; 
 		else result = (i - 1) * (i - 1) + j;
 	} else {
-		if (j % 2 == 0) result = j * (j - 1) - (j - 1 - i);
-		else result = j * j - (i - 1);
+		if (j % 2 == 0) result = (j - 1) * (j - 1) + i;
+		else result = j * j - i + 1;
 	}
 	cout << result << "\n";
 }

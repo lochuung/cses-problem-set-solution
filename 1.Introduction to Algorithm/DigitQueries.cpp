@@ -1,3 +1,5 @@
+//Author: Nguyen Huu Loc
+//Problem: https://cses.fi/problemset/task/2431/
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -24,8 +26,7 @@ void solve() {
     while (k - p > 0) {
         k -= p;
         digits++;
-        long long pow10 = pow_bin(10, digits - 1);
-        p = (pow10 * 10 - pow10) * digits;
+        p = 8 * pow_bin(10, digits - 1) * digits;
     }
     // k = 4, digits = 2;
     k--;
