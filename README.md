@@ -27,7 +27,7 @@ This is my project dedicated to solving the Problem Set on CSES (Code Submission
 1. [Coin Piles](1.Introduction%20to%20Algorithm/CoinPiles.cpp)
 1. [Palindrome Reorder](1.Introduction%20to%20Algorithm/PalindromeReorder.cpp)
 1. [Gray Code](1.Introduction%20to%20Algorithm/GrayCode.cpp)
-1. [2Tower of Hanoi](1.Introduction%20to%20Algorithm/TowerofHanoi.cpp)
+1. [Tower of Hanoi](1.Introduction%20to%20Algorithm/TowerofHanoi.cpp)
 1. [Creating Strings](1.Introduction%20to%20Algorithm/CreatingStrings.cpp)
 1. [Apple Division](1.Introduction%20to%20Algorithm/AppleDivision.cpp)
 1. [Chessboard and Queens](1.Introduction%20to%20Algorithm/ChessboardsAndQueens.cpp)
