@@ -1,5 +1,5 @@
 //Author: Nguyen Huu Loc
-//Problem: https://cses.fi/problemset/task/1621
+//Problem: https://cses.fi/problemset/task/1074
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -8,19 +8,18 @@ int main() {
     int n;
     cin >> n;
     int a[n];
-    for (auto &x: a) cin >> x;
+    for (int i = 0; i < n; i++) cin >> a[i];
 
     sort(a, a + n);
 
-    int temp = INT_MAX, ans = 0;
+	long long ans = 1;
     for (int i = 0; i < n; i++) {
-        if (temp != a[i]) {
-            temp = a[i];
-            ans++;
+        if (ans < a[i]) {
+            cout << ans;
+            return 0;
         }
+        ans = ans + a[i];
     }
-
     cout << ans;
     return 0;
 }
-
